@@ -19,12 +19,15 @@ A Progressive Web App (PWA) example that demonstrates the essential features of 
 
 ## Project Structure
 
-progressive-web-app/
-├── icons/                    # Application icons for different device sizes
-│   ├── app-icon-192x192.png
-│   └── app-icon-512x512.png
-├── index.html                # Main HTML file
-├── style.css                 # CSS styles for the application
-├── script.js                 # JavaScript file for app functionality
-├── manifest.json             # Web app manifest for metadata
-└── service-worker.js         # Service worker for caching and offline functionality
+## Project Structure
+
+- **progressive-web-app/**
+  - *icons/*                   
+    - `app-icon-192x192.png`
+    - `app-icon-512x512.png`    # Application icons for different device sizes
+  - `index.html`                # Main HTML file
+  - `style.css`                 # CSS styles for the application
+  - `script.js`                 # JavaScript file for app functionality
+  - `manifest.json`             # Web app manifest for metadata
+  - `service-worker.js`         # Service worker for caching and offline functionality
+
