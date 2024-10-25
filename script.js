@@ -1,3 +1,4 @@
-document.getElementById("toggleSidebar").addEventListener("click", () => {
-  document.getElementById("sidebar").classList.toggle("hidden");
+document.getElementById("toggleSidebar").addEventListener("click", function () {
+  const sidebar = document.getElementById("sidebar");
+  sidebar.classList.toggle("hidden");
 });

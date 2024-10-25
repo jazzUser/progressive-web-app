@@ -1,61 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#007bff">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" sizes="192x192" href="icons/app-icon-192x192.png">
-    <link rel="icon" sizes="512x512" href="icons/app-icon-512x512.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="icons/app-icon-192x192.png"> <!-- Optional for iOS -->
-    <link rel="apple-touch-icon" sizes="512x512" href="icons/app-icon-512x512.png">
-    <link rel="manifest" href="manifest.json">
-    <title>PWA Example</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#007bff" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" sizes="192x192" href="icons/app-icon-192x192.png" />
+    <link rel="icon" sizes="512x512" href="icons/app-icon-512x512.png" />
+    <link rel="manifest" href="manifest.json" />
+    <title>PWA</title>
+  </head>
+  <body>
     <header class="header">
-        <div class="title-toggle-wrapper">
-            <h1 class="header-title">My Dashboard</h1>   
-            <div id="toggleSidebar" class="toggle-icon">&#9776;</div>
-        </div>
-        <nav class="header-content">
-            <div class="header-item">Sign Up</div>
-            <div class="header-item">Sign In</div>
-        </nav>
+      <div class="title-toggle-wrapper">
+        <h1 class="header-title">PWA Example</h1>
+        <div id="toggleSidebar" class="toggle-icon">&#9776;</div>
+      </div>
+      <nav class="header-content">
+        <div class="header-item">Sign Up</div>
+        <div class="header-item">Sign In</div>
+      </nav>
     </header>
 
     <div class="container">
-        <aside id="sidebar" class="sidebar">
-            <ul>
-                <li>Dashboard</li>
-                <li>User</li>
-                <li>Messages</li>
-                <li>Analytics</li>
-                <li>Side Manager</li>
-                <li>Order</li>
-                <li>Saved Settings</li>
-            </ul>
-        </aside>
-        <main id="mainContent" class="main-content">
-            <h1>My PWA Example</h1>
-            <p>A simple example of a Progressive Web App that provides offline access, home screen installation, responsive design, and standalone mode.</p>
-        
-            <section id="pwaFeatures" class="pwa-features">
-                <h2>Main Features</h2>
-                <ul>
-                    <li>Offline access: The app works without an internet connection.</li>
-                    <li>Add to home screen: You can install the app on your device for quick access.</li>
-                    <li>Responsive design: It looks great on any screen size.</li>
-                    <li>Standalone mode: Once installed, the app runs like a native app without a browser UI.</li>
-                </ul>
-            </section>
-            <h2>Use Google Search: </h2>
-            <form class="search-form" action="https://www.google.com/search" method="get" target="_blank" id="searchForm">
-                <input class="search-bar" type="text" name="q" placeholder="Search...">
-                <button type="submit" class="search-button">Search</button>
-            </form>
-        </main>        
+      <aside id="sidebar" class="sidebar">
+        <ul>
+          <li>Dashboard</li>
+          <li>User</li>
+          <li>Messages</li>
+          <li>Analytics</li>
+          <li>Side Manager</li>
+          <li>Order</li>
+          <li>Saved Settings</li>
+        </ul>
+      </aside>
+      <main id="mainContent" class="main-content">
+        <h1>Progressive Web Application</h1>
+        <p>
+          A simple example of a Progressive Web App that provides offline
+          access, home screen installation, responsive design, and standalone
+          mode.
+        </p>
+
+        <section id="pwaFeatures" class="pwa-features">
+          <h2>Main Features</h2>
+          <ul>
+            <li>
+              Offline access: The app works without an internet connection.
+            </li>
+            <li>
+              Add to home screen: You can install the app on your device for
+              quick access.
+            </li>
+            <li>Responsive design: It looks great on any screen size.</li>
+            <li>
+              Standalone mode: Once installed, the app runs like a native app
+              without a browser UI.
+            </li>
+          </ul>
+        </section>
+      </main>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
